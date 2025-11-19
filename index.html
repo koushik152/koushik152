@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3261aecf02.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Shivaprasad Bhat</title>
+</head>
+
+<body>
+
+    <!-- home section -->
+
+    <div class="main">
+        <div class="navbar" id="nav-menu">
+            <div class="leftnav"></div>
+            <div class="rightnav">
+                <a href="#home">Home</a>
+                <a href="./assets/Shivaprasad_Bhat_Resume.pdf" id="downloadresume" download="Shivaprasad_Bhat_Resume"
+                    target="_blank" class="nav-link resume"
+                    onclick="window.open('https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view');">Resume</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Get In Touch</a>
+            </div>
+        </div>
+        <div class="menuicon" id="menuid" onclick="changeFunction()">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+        </div>
+        <div id="slidenavbar">
+            <div class="menuicon" onclick="changeFunction()">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+            </div>
+
+            <div>
+                <a href="#home" onclick="changeFunction()">Home</a>
+                <a href="./assets/Shivaprasad_Bhat_Resume.pdf" id="downloadresume3" download="Shivaprasad_Bhat_Resume"
+                    target="_blank" class="nav-link resume" id="resume-button-1"
+                    onclick="window.open('https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view');"
+                    onclick="changeFunction()">Resume</a>
+                <a href="#about" onclick="changeFunction()">About</a>
+                <a href="#skills" onclick="changeFunction()">Skills</a>
+                <a href="#projects" onclick="changeFunction()">Projects</a>
+                <a href="#contact" onclick="changeFunction()">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="nav-link home" id="home">
+            <div class="lefthero">
+                <div>
+                    <!--             <div class="handimg">
+              <img
+                src="https://raw.githubusercontent.com/tal-zvon/tal-zvon/main/assets/Hand_Wave.gif"
+                width="20%"
+                alt=""
+              />
+            </div> -->
+                    <h1>
+
+                        Hi👋, I'm <span id="user-detail-name" style="color: #ffa31a">Shivaprasad Bhat</span><br />
+                        A Software Developer
+                    </h1>
+
+                    <div id="herobtn">
+
+                        <a href="./assets/Shivaprasad_Bhat_Resume.pdf" id="resume-button-2"
+                            download="Shivaprasad_Bhat_Resume" target="_blank" class="nav-link resume"
+                            onclick="window.open('https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view');">Resume</a>
+                        <a href="#contact">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="righthero">
+
+
+                <div class="home__img">
+                    <img class="home-img" src="./assets/profile_img.jpg" alt="img" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about section -->
+
+    <div class="nav-link about" id="about">
+        <div id="desc">
+            <h2>About Me</h2>
+            <h3>Hi, I’m Shivaprasad. Nice to meet you.</h3>
+            <p id="user-detail-intro" style="line-height: 28px">
+                Strong in design and integration with intuitive problem-solving skills, and proficient in JAVA,
+                JAVASCRIPT, and SQL.
+                Passionate about implementing and launching new projects, with the ability to translate business
+                requirements into
+                technical solutions. Seeking an entry-level software engineer position with a reputed technology-driven
+                firm to begin a successful career.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Skills section -->
+
+    <div id="tech_stacks">
+        <h2>My tools <span>&</span> skills</h2>
+    </div>
+    <div class="nav-link skills" id="skills">
+        <h2>My tools <span style="color: #ffa31a">&</span> skills</h2>
+        <div id="skillsicon">
+            <div><iconify-icon class="skills-card-img" icon="logos:html-5"></iconify-icon>
+                <p class="skills-card-name">HTML</p>
+            </div>
+            <div class="skills-card"><iconify-icon class="skills-card-img" icon="logos:css-3"></iconify-icon>
+                <p class="skills-card-name">CSS</p>
+            </div>
+            <div class="skills-card"><iconify-icon class="skills-card-img" icon="logos:javascript"></iconify-icon>
+                <p class="skills-card-name">JavaScript</p>
+            </div>
+            <div class="skills-card"> <iconify-icon class="skills-card-img" icon="logos:java"></iconify-icon>
+                <p class="skills-card-name">Java</p>
+            </div>
+            <div class="skills-card"><iconify-icon class="skills-card-img" icon="logos:hibernate"></iconify-icon>
+                <p class="skills-card-name">Hibernate</p>
+            </div>
+            <div class="skills-card"><iconify-icon class="skills-card-img" icon="logos:mysql"></iconify-icon>
+                <p class="skills-card-name">MySql</p>
+            </div>
+            <div class="skills-card"><iconify-icon class="skills-card-img" icon="logos:spring"></iconify-icon>
+                <p class="skills-card-name">Spring</p>
+            </div>
+            <div class="skills-card"><iconify-icon class="skills-card-img" icon="logos:postman"></iconify-icon>
+                <p class="skills-card-name">PostMan</p>
+            </div>
+            <div class="skills-card">
+                <iconify-icon class="skills-card-img" icon="icon-park-outline:github"
+                    style="color: #f9af22"></iconify-icon>
+                <p class="skills-card-name">GitHub</p>
+            </div>
+            <div class="skills-card">
+                <iconify-icon class="skills-card-img" icon="simple-icons:intellijidea"
+                    style="color: #fa431c"></iconify-icon>
+                <p class="skills-card-name">IntelliJIdea</p>
+            </div>
+            <div class="skills-card">
+                <iconify-icon class="skills-card-img" icon="vscode-icons:file-type-vscode"></iconify-icon>
+                <p class="skills-card-name">VS Code</p>
+            </div>
+            <div class="skills-card"><iconify-icon class="skills-card-img" icon="mdi:aws"></iconify-icon>
+                <p class="skills-card-name">AWS</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-link projects" id="projects">
+        <div>
+            <h2><span style="color: #ffffff">Projects</span></h2>
+
+
+
+            <!-- 2nd project card -->
+            <div class="project-card ">
+                <div class="project__left">
+                    <div class="project__img">
+                        <img src="./assets/bus-reservation-logo.png" alt="Bus Reservation Application">
+                    </div>
+                    <div class="project-tech-stack">
+                        <p>Tech-stacks : Java, SpringBoot, Hibernate, MySql, HTML, CSS, JavaScript</p>
+
+                    </div>
+                </div>
+                <div class="project__right">
+                    <div class="project__details">
+                        <h3><span class="project-title" style="font-weight: bold;color: #ffcc00;font-size: 22px;">Bus
+                                Reservation System</span></h3>
+                        <p>Build RESTful Api for an online bus ticket reservation application</p>
+                        <p class="project-description"> The main objective of this project is to cater the needs of the
+                            passenger who are traveling from one point to another. This API performs all the fundamental
+                            CRUD operations of any Bus Reservation System Portal with user validation. Customer can
+                            perform all operations using frontend or web application of our project.
+                        </p>
+                        <div ">
+                            <div  ><span style=" font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;">
+                            Features</span></div>
+                        <div>Login & Signup </div>
+                        <div>Admin & User Module</div>
+                        <div>Bus, Route, Reservation & Feedback Management</div>
+
+                    </div>
+                </div>
+                <div class="project__buttons">
+                    <a class="project-deployed-link" href="https://bus-ticket-reservation.netlify.app/"
+                        target="_blank"><button class="btn-live btn-md btn-primary">Live</button></a>
+                    <a class="project-github-link" href="https://github.com/Shivaprasad-sBhat/Bus-Reservation-System"
+                        target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- 3rd project card -->
+        <div class="project-card ">
+            <div class="project__left">
+                <div class="project__img">
+                    <img src="./assets/mgnrega-proj.jpg" alt="MGNREGA Work Management App">
+                </div>
+                <div class="project-tech-stack">
+                    <p>Tech-stacks : Java, JDBC , MySql</p>
+
+                </div>
+            </div>
+            <div class="project__right">
+                <div class="project__details">
+                    <h3><span class="project-title" style="font-weight: bold;color: #ffcc00;font-size: 22px;">MGNREGA
+                            Work Management Application</span></h3>
+                    <p>Build a console based application of MGNREGA work Management system</p>
+                    <p class="project-description"> The Main objective of this project is to manage employments offered
+                        through MGNREGA act 2005 scheme. The BDO will creat project and assign to GPM,
+                        then GPM will assign the employees. BDO and GPM can manage & monitor employees.
+                    <div>
+                        <div><span style="font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;">
+                                Features</span></div>
+                        <div>Login & Signup </div>
+                        <div>BDO & GPM Module</div>
+                        <div>Project & Employment Management</div>
+
+                    </div>
+                </div>
+                <div class="project__buttons">
+                    <a class="project-deployed-link"
+                        href="https://drive.google.com/file/d/1EduTm1e2xX1jL34kbrbZQrKkOXYzmo2F/view"
+                        target="_blank"><button class="btn-live btn-md btn-primary">Video</button></a>
+                    <a class="project-github-link"
+                        href="https://github.com/Shivaprasad-sBhat/MGNREGA-Work-Management-Application"
+                        target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- 4th project card -->
+        <div class="project-card">
+            <div class="project__left">
+                <div class="project__img">
+                    <img src="./assets/IdeaKart-clone.PNG" alt="IdeaKart-Clone">
+                </div>
+                <div class="project-tech-stack">
+                    <p>Tech-stacks : HTML, CSS, JavaScript</p>
+
+                </div>
+            </div>
+            <div class="project__right">
+                <div class="project__details">
+                    <h3><span class="project-title" style="font-weight: bold;color: #ffcc00;font-size: 22px;">Ideakart
+                            Clone</span></h3>
+                    <p>Cloned Ideakart website which offers huge collection of books to buy and user can sell products.
+                    </p>
+                    <p class="project-description"> A web application to buy all types of books and It also gives us an
+                        random idea about the book to buy and user can earn money online by selling products.
+                        and he can track the status of the uploaded product on dashboard page and user will get a
+                        notification of their product status.
+                    <div>
+                        <div><span style="font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;">
+                                Features</span></div>
+                        <div>Login & Signup </div>
+                        <div>Home, Cart, Orders & Payment Pages</div>
+                        <div>Dashboard & Admin Page</div>
+
+                    </div>
+                </div>
+                <div class="project__buttons">
+                    <a class="project-deployed-link" href="https://ideakartcom.netlify.app/" target="_blank"><button
+                            class="btn-live btn-md btn-primary">Live</button></a>
+                    <a class="project-github-link" href="https://github.com/Ankur982/U2-CW-Ideacart_Project"
+                        target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- <div class="project-card ">
+                <div class="project__left">
+                    <div class="project__img">
+                        <img src="./assets/bus-reservation-logo.png" alt="Bus Reservation Application">
+                    </div>
+                    <div class="project-tech-stack">
+                        <p>Tech-stacks : Java, SpringBoot, Hibernate, MySql, HTML, CSS, JavaScript</p>
+
+                    </div>
+                </div>
+                <div class="project__right">
+                    <div class="project__details">
+                        <h3><span class="project-title" style="font-weight: bold;color: #ffcc00;font-size: 22px;">Bus
+                                Reservation System</span></h3>
+                        <p>Build RESTful Api for an online bus ticket reservation application</p>
+                        <p class="project-description"> The main objective of this project is to cater the needs of the
+                            passenger who are traveling from one point to another. This API performs all the fundamental
+                            CRUD operations of any Bus Reservation System Portal with user validation. Customer can
+                            perform all operations using frontend or web application of our project.
+                        </p>
+                        <div ">
+                            <div  ><span style=" font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;">
+                            Features</span></div>
+                        <div>Login & Signup </div>
+                        <div>Admin & User Module</div>
+                        <div>Bus, Route, Reservation & Feedback Management</div>
+
+                    </div>
+                </div>
+                <div class="project__buttons">
+                    <a class="project-deployed-link" href="https://bus-reservation-app.netlify.app/"
+                        target="_blank"><button class="btn-live btn-md btn-primary">Live</button></a>
+                    <a class="project-github-link" href="https://github.com/Shivaprasad-sBhat/Bus-Reservation-System"
+                        target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+                </div>
+            </div>
+        </div> -->
+        
+    </div>
+    </div>
+
+
+
+    <!-- github statastics -->
+
+    <div class="title reveal" style="width: 90%; margin: auto;">
+        <a target="_blank" rel="noreferrer" id="cicin" href="https://github.com/Shivaprasad-sBhat"
+            style="text-decoration: none;">
+            <p style="text-align: center; font-size: 200%; color:#ffffff;padding: 3%;">My Github contributions</p>
+            <img width="100%" style="margin-bottom:20px;display: flex; padding: auto;" id="github-contributions"
+                id="github-contributions" class="react-activity-calendar"
+                src="https://ghchart.rshah.org/Shivaprasad-sBhat" href="https://github.com/Shivaprasad-sBhat"
+                alt="Github chart" />
+        </a>
+    </div>
+    <div class="statsBox">
+        <h3>GitHub Stats</h3>
+        <div>
+            <div class="statsContainer">
+                <div>
+                    <a href="https://github.com/Shivaprasad-sBhat" target="_blank">
+                        <img align="left" id="github-streak-stats"
+                            src="https://github-readme-streak-stats.herokuapp.com/?user=Shivaprasad-sBhat" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="stats-3">
+                <p align="center">
+                    <a href="https://github.com/Shivaprasad-sBhat" target="_blank">
+                        <img align="center" id="github-top-langs"
+                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivaprasad-sBhat&bg_color=0D1117"
+                            alt="Github top language" />
+                    </a>
+                </p>
+            </div>
+
+            <div class="stats-2">
+                <p align="center">
+                    <a href="https://github.com/Shivaprasad-sBhat/github-readme-stats" target="_blank">
+                        <img id="github-stats-card" alt="Github Stats"
+                            src="https://github-readme-stats.vercel.app/api?username=Shivaprasad-sBhat&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" />
+                    </a>
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- <div class="graph-1">
+        <p align="center">
+            <a href="https://github.com/Shivaprasad-sBhat" target="_blank"><span>
+                    <img align="center"
+                        src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shivaprasad-sBhat&theme=dracula&bg_color=0D1117" />
+                </span></a>
+        </p>
+    </div> -->
+
+
+    <!-- contact section -->
+
+    <div id="contact" class="nav-link contact">
+        <div class="contact__container">
+            <div class="contact__left">
+                <h2>Contact me</h2>
+                <p>Please feel free to contact me via email or linkedin</p>
+
+                <div class="footer__socials">
+                    <span>
+
+                        <a id="contact-email" style="text-decoration: none; " href="mailto:bhatshivaprasad98@gmail.com"
+                            rel="noopener noreferrer"> <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </span>
+
+                    <span>
+                        <a id="contact-linkedin" href="https://www.linkedin.com/in/shivaprasad-bhat" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </span>
+                    <!-- uil uil-linkedin -->
+                    <span>
+                        <a id="contact-github" href="https://github.com/Shivaprasad-sBhat" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </span>
+                    <!-- uil uil-github -->
+                    <span><i class="fas fa-phone-square-alt"></i></span>
+                    <span id="contact-phone">+91 8660198190</span>
+
+                </div>
+
+
+                <p>You can also download my resume using below button</p>
+
+                <a href="/assets/Shivaprasad_Bhat_Resume.pdf" id="downloadresume2" download="Shivaprasad_Bhat_Resume"
+                    target="_blank" class="topbtn"
+                    onclick="window.open('https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view');">Resume</a>
+            </div>
+            <div class="contact_right">
+                <form action="">
+                    <input type="text" name="name" id="cname" placeholder="Your Name" />
+                    <input type="email" name="email" id="cemail" placeholder="Your Email" />
+                    <textarea name="message" rows="6" id="cmessage" placeholder="Message"></textarea>
+                    <button type="submit" class="btn" id="csend">Send</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    // let resume = document.getElementById("downloadresume");
+    // resume.addEventListener("click", function () {
+    //     window.open("https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view?usp=share_link")
+    // })
+
+    // let resume2 = document.getElementById("downloadresume2");
+    // resume2.addEventListener("click", function () {
+    //     window.open("https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view?usp=share_link")
+    // })
+
+    // let resume3 = document.getElementById("downloadresume3");
+    // resume3.addEventListener("click", function () {
+    //     window.open("https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view?usp=share_link")
+    // })
+
+    // let resume4 = document.getElementById("resume-button-2");
+    // resume4.addEventListener("click", function () {
+    //     window.open("https://drive.google.com/file/d/1zzIk8jfoFOlHGeh2UU__rubw-6Vxo6uC/view?usp=share_link")
+    // })
+
+    window.onload = function () {
+        GitHubCalendar(".calendar", "Shivaprasad-sBhat");
+        // or enable responsive functionality
+        GitHubCalendar(".calendar", "Shivaprasad-sBhat", { responsive: true });
+    }
+</script>
+<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script>
+    let send = document.getElementById("csend");
+
+
+    send.addEventListener('click', function (e) {
+        e.preventDefault();
+        let uname = document.getElementById("cname").value;
+        let email = document.getElementById("cemail").value;
+        let message = document.getElementById("cmessage").value;
+        let obj = {
+            "Username": uname,
+            "from": email,
+            "message": message
+
+        }
+        Email.send({
+            Host: "smtp.gmail.com",
+            Username: "sb.app.com@gmail.com",
+            Password: "grymnnbygylwxaxk",
+            To: 'bhatshivaprasad98@gmail.com',
+            From: email,
+            Subject: "Sending Email from portfolio",
+            Body: obj,
+            Attachments: [
+                {
+                    name: "File_Name_with_Extension",
+                    path: "Full Path of the file"
+                }]
+        })
+            .then(function (message) {
+                alert("Mail has been sent successfully")
+            });
+
+
+    });
+</script>
+<script>
+    let count = 0;
+    var slidenavbar = document.getElementById("slidenavbar");
+    var menuid = document.getElementById("menuid");
+    function changeFunction() {
+        if (count == 0) {
+            count = 1;
+
+
+            slidenavbar.style.opacity = "1";
+            menuid.style.visibility = "hidden";
+            slidenavbar.style.visibility = "visible";
+
+        } else {
+            count = 0;
+
+            slidenavbar.style.opacity = "0";
+            slidenavbar.style.visibility = "hidden";
+            menuid.style.visibility = "visible";
+        }
+    }
+</script>
